@@ -4,7 +4,24 @@
     <title>Sports News</title>
     <meta charset="utf-8">
   </head>
-<h1>Sports Newslater</h1>
-<p>Register to get the latest and recent news on the sports.</p>
+<main id="content">
+  <form method="get" action="null">
+    <h1>Sports Newsletterr</h1>
+    <p>Register to get the latest and recent news on the sports.</p>
+    <ol>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$">
+      </li>
+      <li id="inputbox">
+        <input type="checkbox" id="inputcheckbox">
+        <label for="inputcheckbox">I'd like to recieve sports news daily</label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Subscribe">
+      </li>
+    </ol>
+  </form>
+</main>
 </body>
 
