@@ -20,9 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('You are subscribed to receive sports news.');
       }
   
-       form.submit();
+      form.submit();
     });
-  
     // Function to validate email address
     function isValidEmail(email) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
