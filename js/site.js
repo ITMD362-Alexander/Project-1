@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('You are subscribed to receive sports news.');
       }
   
-      // You can add code here to submit the form data to the server
-      // For example: form.submit();
+       form.submit();
     });
   
     // Function to validate email address
